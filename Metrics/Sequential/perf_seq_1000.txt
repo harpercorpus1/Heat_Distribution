@@ -1,0 +1,18 @@
+Performance counter stats for './as2_seq 1000':
+
+          8,419.61 msec task-clock:u              #    1.003 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             3,486      page-faults:u             #    0.414 K/sec                  
+    25,904,770,713      cycles:u                  #    3.077 GHz                    
+     3,735,955,073      stalled-cycles-frontend:u #   14.42% frontend cycles idle   
+     1,160,752,016      stalled-cycles-backend:u  #    4.48% backend cycles idle    
+    72,727,879,882      instructions:u            #    2.81  insn per cycle         
+                                                  #    0.05  stalled cycles per insn
+     2,471,925,956      branches:u                #  293.591 M/sec                  
+         2,171,863      branch-misses:u           #    0.09% of all branches        
+
+       8.396553857 seconds time elapsed
+
+       8.360726000 seconds user
+       0.042198000 seconds sys
