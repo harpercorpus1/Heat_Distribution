@@ -1,0 +1,23 @@
+# started on Fri Feb 25 21:55:23 2022
+
+
+ Performance counter stats for 'mpirun -np 16 --mca mpi_cuda_support 0 as2_par 100':
+
+          8,831.58 msec task-clock:u              #    7.893 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            47,366      page-faults:u             #    0.005 M/sec                  
+    17,662,045,983      cycles:u                  #    2.000 GHz                      (24.95%)
+       885,378,640      stalled-cycles-frontend:u #    5.01% frontend cycles idle     (24.98%)
+     4,870,290,679      stalled-cycles-backend:u  #   27.57% backend cycles idle      (24.82%)
+    30,458,899,909      instructions:u            #    1.72  insn per cycle         
+                                                  #    0.16  stalled cycles per insn  (24.69%)
+     4,825,388,259      branches:u                #  546.379 M/sec                    (24.85%)
+        33,731,863      branch-misses:u           #    0.70% of all branches          (25.06%)
+
+       1.118882446 seconds time elapsed
+
+       7.854049000 seconds user
+       0.955089000 seconds sys
+
+
