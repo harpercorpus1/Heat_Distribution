@@ -1,19 +1,23 @@
-Performance counter stats for './as2_seq 10':
+# started on Sat Feb 26 16:41:17 2022
 
-            365.25 msec task-clock:u              #    1.060 CPUs utilized          
+
+ Performance counter stats for './as2_seq 10':
+
+            899.89 msec task-clock:u              #    0.491 CPUs utilized          
                  0      context-switches:u        #    0.000 K/sec                  
                  0      cpu-migrations:u          #    0.000 K/sec                  
-             3,998      page-faults:u             #    0.011 M/sec                  
-     1,003,386,026      cycles:u                  #    2.747 GHz                    
-       260,762,676      stalled-cycles-frontend:u #   25.99% frontend cycles idle   
-       179,895,587      stalled-cycles-backend:u  #   17.93% backend cycles idle    
-     2,618,937,581      instructions:u            #    2.61  insn per cycle         
-                                                  #    0.10  stalled cycles per insn
-       486,787,122      branches:u                # 1332.739 M/sec                  
-           178,518      branch-misses:u           #    0.04% of all branches        
+             3,513      page-faults:u             #    0.004 M/sec                  
+     1,632,049,283      cycles:u                  #    1.814 GHz                      (25.64%)
+        53,798,889      stalled-cycles-frontend:u #    3.30% frontend cycles idle     (25.73%)
+       494,109,700      stalled-cycles-backend:u  #   30.28% backend cycles idle      (25.67%)
+     2,654,616,024      instructions:u            #    1.63  insn per cycle         
+                                                  #    0.19  stalled cycles per insn  (24.92%)
+       503,316,267      branches:u                #  559.307 M/sec                    (24.39%)
+         4,306,136      branch-misses:u           #    0.86% of all branches          (24.14%)
 
-       0.344530184 seconds time elapsed
+       1.834193828 seconds time elapsed
 
-       0.326192000 seconds user
-       0.039709000 seconds sys
+       0.730339000 seconds user
+       0.161747000 seconds sys
+
 

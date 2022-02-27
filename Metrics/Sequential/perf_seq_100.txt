@@ -1,18 +1,23 @@
-Performance counter stats for './as2_seq 100':
+# started on Sat Feb 26 16:41:19 2022
 
-          1,099.79 msec task-clock:u              #    1.020 CPUs utilized          
+
+ Performance counter stats for './as2_seq 100':
+
+          2,510.65 msec task-clock:u              #    0.993 CPUs utilized          
                  0      context-switches:u        #    0.000 K/sec                  
                  0      cpu-migrations:u          #    0.000 K/sec                  
-             3,482      page-faults:u             #    0.003 M/sec                  
-     3,275,259,759      cycles:u                  #    2.978 GHz                    
-       580,823,417      stalled-cycles-frontend:u #   17.73% frontend cycles idle   
-       268,186,808      stalled-cycles-backend:u  #    8.19% backend cycles idle    
-     8,992,376,160      instructions:u            #    2.75  insn per cycle         
-                                                  #    0.06  stalled cycles per insn
-       667,204,753      branches:u                #  606.664 M/sec                  
-           357,285      branch-misses:u           #    0.05% of all branches        
+             3,491      page-faults:u             #    0.001 M/sec                  
+     5,561,052,764      cycles:u                  #    2.215 GHz                      (25.04%)
+        57,871,021      stalled-cycles-frontend:u #    1.04% frontend cycles idle     (24.92%)
+     1,904,208,974      stalled-cycles-backend:u  #   34.24% backend cycles idle      (24.86%)
+     9,018,077,811      instructions:u            #    1.62  insn per cycle         
+                                                  #    0.21  stalled cycles per insn  (24.88%)
+       666,373,125      branches:u                #  265.418 M/sec                    (24.91%)
+         3,572,703      branch-misses:u           #    0.54% of all branches          (24.88%)
 
-       1.077971757 seconds time elapsed
+       2.528033116 seconds time elapsed
 
-       1.065511000 seconds user
-       0.033130000 seconds sys
+       2.434576000 seconds user
+       0.051111000 seconds sys
+
+
