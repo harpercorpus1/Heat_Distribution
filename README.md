@@ -9,6 +9,10 @@
   (MPI) to transfer computed data across nodes. 
 </p>
 
+<p>
+  Usage instructions are explained in the "usage_instructions.txt" file. 
+</p>
+
 <h2>Visualization</h2>
 <body>
   This is the output image displaying how the heat in the room dissipates after 100,000 iterations
@@ -24,4 +28,8 @@
 <body>
   This table shows the runtime (in seconds) according to each respective number of computing nodes.
   <img src="Runtime-Table.png" alt="Runtime Table">
+</body>
+
+<body>
+  To see these plots and their creation more clearly, they are shown in the "Runtime_Visualization.ipynb" file. 
 </body>
