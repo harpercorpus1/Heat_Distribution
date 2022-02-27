@@ -1,18 +1,23 @@
-Performance counter stats for './as2_seq 100000':
+# started on Sat Feb 26 16:44:54 2022
 
-        816,681.44 msec task-clock:u              #    1.000 CPUs utilized          
+
+ Performance counter stats for './as2_seq 100000':
+
+      1,932,945.48 msec task-clock:u              #    1.000 CPUs utilized          
                  0      context-switches:u        #    0.000 K/sec                  
                  0      cpu-migrations:u          #    0.000 K/sec                  
-             3,565      page-faults:u             #    0.004 K/sec                  
- 2,524,231,106,213      cycles:u                  #    3.091 GHz                    
-   361,611,932,726      stalled-cycles-frontend:u #   14.33% frontend cycles idle   
-    99,937,579,731      stalled-cycles-backend:u  #    3.96% backend cycles idle    
- 7,082,657,430,679      instructions:u            #    2.81  insn per cycle         
-                                                  #    0.05  stalled cycles per insn
-   200,703,920,685      branches:u                #  245.755 M/sec                  
-       200,422,070      branch-misses:u           #    0.10% of all branches        
+             3,742      page-faults:u             #    0.002 K/sec                  
+ 4,392,898,881,036      cycles:u                  #    2.273 GHz                      (25.00%)
+     2,446,041,935      stalled-cycles-frontend:u #    0.06% frontend cycles idle     (25.00%)
+ 1,593,321,601,891      stalled-cycles-backend:u  #   36.27% backend cycles idle      (25.00%)
+ 7,082,377,403,316      instructions:u            #    1.61  insn per cycle         
+                                                  #    0.22  stalled cycles per insn  (25.00%)
+   200,692,839,757      branches:u                #  103.827 M/sec                    (25.00%)
+       207,108,850      branch-misses:u           #    0.10% of all branches          (25.00%)
 
-     816.676722532 seconds time elapsed
+    1932.976192911 seconds time elapsed
 
-     814.883858000 seconds user
-       0.047678000 seconds sys
+    1911.093386000 seconds user
+       0.072427000 seconds sys
+
+
