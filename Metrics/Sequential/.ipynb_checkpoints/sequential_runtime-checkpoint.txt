@@ -1,0 +1,23 @@
+# started on Sat Feb 26 16:41:17 2022
+
+
+ Performance counter stats for './seq_script.sh':
+
+      2,149,210.19 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            32,714      page-faults:u             #    0.015 K/sec                  
+ 4,882,288,494,188      cycles:u                  #    2.272 GHz                      (25.00%)
+     3,044,784,705      stalled-cycles-frontend:u #    0.06% frontend cycles idle     (25.00%)
+ 1,768,656,418,152      stalled-cycles-backend:u  #   36.23% backend cycles idle      (25.00%)
+ 7,876,375,081,335      instructions:u            #    1.61  insn per cycle         
+                                                  #    0.22  stalled cycles per insn  (25.00%)
+   224,923,363,390      branches:u                #  104.654 M/sec                    (25.00%)
+       250,000,110      branch-misses:u           #    0.11% of all branches          (25.00%)
+
+    2150.290599237 seconds time elapsed
+
+    2124.493612000 seconds user
+       0.572322000 seconds sys
+
+

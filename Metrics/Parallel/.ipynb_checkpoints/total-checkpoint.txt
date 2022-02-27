@@ -1,0 +1,23 @@
+# started on Fri Feb 25 21:55:07 2022
+
+
+ Performance counter stats for './par_script.sh':
+
+     10,898,255.02 msec task-clock:u              #    4.260 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+           875,037      page-faults:u             #    0.080 K/sec                  
+24,700,311,461,052      cycles:u                  #    2.266 GHz                      (25.01%)
+    54,755,935,840      stalled-cycles-frontend:u #    0.22% frontend cycles idle     (25.00%)
+10,592,673,390,785      stalled-cycles-backend:u  #   42.88% backend cycles idle      (25.01%)
+41,673,010,889,826      instructions:u            #    1.69  insn per cycle         
+                                                  #    0.25  stalled cycles per insn  (25.00%)
+ 1,101,257,987,239      branches:u                #  101.049 M/sec                    (25.00%)
+     2,097,393,300      branch-misses:u           #    0.19% of all branches          (25.00%)
+
+    2558.247920288 seconds time elapsed
+
+   10750.343858000 seconds user
+      12.982510000 seconds sys
+
+
